@@ -9,10 +9,11 @@ class Employee
     string name;
     string Email;
     int number;
-    string autho="dhairya0809";
+    const string autho="dhairya0809";
     string a;
     void Display()
     {
+         cout<<"--------Employee Details--------"<<endl;
         cout<<"Employee's Phone Number"<<number<<endl;
         cout<<"Employee's Name"<<name<<endl;
         cout<<"Employee's Email"<<Email<<endl;
@@ -26,8 +27,9 @@ int main()
     cin>>E1.a;
     if (E1.a == E1.autho)
     {
+        cout<<"--------Employee Details--------"<<endl;
         cout<<"Enter Name"<<endl;
-       cin>>E1.name;
+        cin>>E1.name;
         cout<<"Enter number"<<endl;
         cin>>E1.number;
         cout<<"Enter Email"<<endl;
