@@ -14,10 +14,10 @@ class Employee
     void Display()
     {
          cout<<"--------Employee Details--------"<<endl;
-        cout<<"Employee's Phone Number"<<number<<endl;
-        cout<<"Employee's Name"<<name<<endl;
-        cout<<"Employee's Email"<<Email<<endl;
-        cout<<"Employee's ID"<<EmployeeID<<endl;
+        cout<<"Employee's Phone Number="<<number<<endl;
+        cout<<"Employee's Name="<<name<<endl;
+        cout<<"Employee's Email="<<Email<<endl;
+        cout<<"Employee's ID="<<EmployeeID<<endl;
     }
 };
 int main()
@@ -28,13 +28,13 @@ int main()
     if (E1.a == E1.autho)
     {
         cout<<"--------Employee Details--------"<<endl;
-        cout<<"Enter Name"<<endl;
+        cout<<"Enter Name="<<endl;
         cin>>E1.name;
-        cout<<"Enter number"<<endl;
+        cout<<"Enter number="<<endl;
         cin>>E1.number;
-        cout<<"Enter Email"<<endl;
+        cout<<"Enter Email="<<endl;
         cin>>E1.Email;
-        cout<<"Enter ID"<<endl;
+        cout<<"Enter ID="<<endl;
         cin>>E1.EmployeeID;
         E1.Display();
     }
